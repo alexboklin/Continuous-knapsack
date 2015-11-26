@@ -1,16 +1,12 @@
-Given n segments, provide a minimal set of points such that each segment contains at least one of these points. 
-
-
-The first input line contains <i>l</i> &le; <i>n</i> &le; 10<sup>3</sup> items and 
-capacity <i>o</i> &le; <i>W</i> &le; 10<sup>6</sup>.
+The first input line contains <i>1</i> &le; <i>n</i> &le; 10<sup>3</sup> items and 
+capacity <i>0</i> &le; <i>W</i> &le; 2*10<sup>6</sup>.
 
 
 
-Each successive input line (n lines total) contains two numbers  0 &le; <i>l</i> &le; <i>r</i> &le; 10<sup>9</sup> -- segment's endpoints.
+
+Each of <i>n</i> successive input lines contains each item's cost (<i>0</i> &le; <i>c<sub>i</sub></i> &le; 2*10<sup>6</sup>) and weight (<i>0</i> &le; <i>w<sub>i</sub></i> &le; 2*10<sup>6</sup>)  (<i>n</i>,  <i>W</i>, <i>c<sub>i</sub></i>, <i>w<sub>i</sub></i> are integers)
 
 
-
-Первая строка содержит количество предметов 1≤n≤103 и вместимость рюкзака 0≤W≤2⋅106. 
 Каждая из следующих n строк задаёт стоимость 0≤ci≤2⋅106 и объём 0<wi≤2⋅106 предмета (n, W, ci, wi — целые числа). 
 Выведите максимальную стоимость частей предметов (от каждого предмета можно отделить любую часть, 
 стоимость и объём при этом пропорционально уменьшатся), помещающихся в данный рюкзак, 
